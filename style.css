@@ -1,0 +1,52 @@
+﻿:root {
+  --purple: #A276FF;
+  --dark: rgba(5, 7, 41, 0.9);
+
+  font-family: Oswald, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  zoom: 90%;
+  background-image: url("./images/car.png");
+  background-color: var(--dark);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: Inter, Arial, serif;
+  color: white;
+}
+
+.social {
+  background-color: var(--purple);
+  display: flex;
+  flex-direction: row;
+  column-gap: 93px;
+  justify-content: center;
+  align-items: center;
+
+  width: 232px;
+  height: 73px;
+
+  position: absolute;
+  top: 0;
+  right: 309px;
+
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

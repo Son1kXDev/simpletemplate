@@ -1,0 +1,73 @@
+﻿main {
+  margin: 10% 496px 229px 592px;
+
+  .thumbs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 79px;
+
+    margin-top: 96px;
+
+    height: 156px;
+
+    img {
+      max-height: 100%;
+    }
+  }
+
+  .news {
+    margin-top: 76px;
+
+    h2 {
+      font-size: 42px;
+      line-height: 100px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 165%;
+    }
+  }
+}
+
+.main-content {
+  h2 {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 104px;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    color: var(--purple);
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 117px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 35px 0;
+    font-size: 29px;
+  }
+
+  button {
+    width: 352px;
+    height: 83px;
+    cursor: pointer;
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 17px;
+  }
+}
+
+
